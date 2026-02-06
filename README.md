@@ -22,8 +22,40 @@ This setup provided a reliable environment for storing customer transaction data
 ![RFM Segmentation](https://raw.githubusercontent.com/NaimurRah1/RFM-segmentation-SQL-Based-project/main/image/rfm3.jpeg)
 
 ---
+## 📊 Dataset Description
+This dataset contains **sales order transaction records**, including order details, product information, sales performance variables, and customer details.  
+It also includes time-based fields such as **month, quarter, and year**, which support trend and seasonal analysis.
+
+### 🔹 Key Variables Included
+- **ORDERNUMBER**
+- **QUANTITYORDERED**
+- **PRICEEACH**
+- **ORDERLINENUMBER**
+- **SALES**
+- **ORDERDATE**
+- **ADDRESSLINE1**
+- **ADDRESSLINE2**
+- **CITY**
+- **STATE**
+- **POSTALCODE**
+- **COUNTRY**
+- **STATUS**
+- **QTR_ID**
+- **MONTH_ID**
+- **YEAR_ID**
+- **PRODUCTLINE**
+- **MSRP**
+- **TERRITORY**
+- **CONTACTLASTNAME**
+- **CONTACTFIRSTNAME**
+- **DEALSIZE**
+- **PRODUCTCODE**
+- **CUSTOMERNAME**
+- **PHONE**
 
 ![RFM Segmentation](https://raw.githubusercontent.com/NaimurRah1/RFM-segmentation-SQL-Based-project/main/image/rfm4.jpeg)
+
+---
 
 ![RFM Segmentation](https://raw.githubusercontent.com/NaimurRah1/RFM-segmentation-SQL-Based-project/main/image/rfm5.jpeg)
 
