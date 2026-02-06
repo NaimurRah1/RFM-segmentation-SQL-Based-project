@@ -38,34 +38,41 @@ It also includes time-based fields such as **month, quarter, and year**, which s
 ![RFM Segmentation](https://raw.githubusercontent.com/NaimurRah1/RFM-segmentation-SQL-Based-project/main/image/rfm8.jpeg)
 
 ---
+## 🧾 Query Description
+This SQL query performs **RFM segmentation** on customer sales data.  
+It calculates each customer’s:
+
+- **Recency** (days since last purchase)  
+- **Frequency** (total number of orders)  
+- **Monetary** (total revenue generated)  
+
+Then, the query ranks customers into **quartiles**, combines the scores into an **RFM code**, and classifies them into customer segments such as **Champion**, **Loyal Customer**, and **Needs Attention** based on their RFM behavior patterns.
+
 ![RFM Segmentation](https://raw.githubusercontent.com/NaimurRah1/RFM-segmentation-SQL-Based-project/main/image/rfm5.jpeg)
+
+---
+## 📌 Materialized View Output
+In the previous query, a **materialized view** was created to store the RFM segmentation results.  
+This view displays each customer’s **name**, **RFM value**, and their assigned **customer segment**.
+
+By analyzing the customer segment data, businesses can make informed decisions related to **customer engagement**, **retention planning**, and **targeted marketing strategies**.
 
 ![RFM Segmentation](https://raw.githubusercontent.com/NaimurRah1/RFM-segmentation-SQL-Based-project/main/image/rfm6.jpeg)
 
-![RFM Segmentation](https://raw.githubusercontent.com/NaimurRah1/RFM-segmentation-SQL-Based-project/main/image/rfm7.jpeg)
-
-
-## Project Description
-Analyze customers using **RFM (Recency, Frequency, Monetary)** metrics to guide business decisions:  
+---
+## 🎯 Business Decision Using RFM Segments
+RFM segments help guide customer-focused business decisions:
 
 - **Champions** → reward & retain  
 - **Loyal** → maintain engagement  
 - **Potential Loyalists** → encourage more purchases  
-- **Promising** → boost frequency  
-- **Needs Attention** → re-engage  
-- **About to Sleep** → win-back campaigns  
+- **Promising** → boost purchase frequency  
+- **Needs Attention** → re-engage customers  
+- **About to Sleep** → run win-back campaigns  
+``
 
-This project uses **SQL** to segment customers and support strategic decision-making.
+![RFM Segmentation](https://raw.githubusercontent.com/NaimurRah1/RFM-segmentation-SQL-Based-project/main/image/rfm7.jpeg)
 
-![Customer Segments](https://via.placeholder.com/600x300.png?text=Customer+Segments+Chart)
+---
 
-## Tech Stack
-- PostgreSQL / SQL  
-- Data Analysis  
 
-![SQL Query Example](https://via.placeholder.com/600x200.png?text=SQL+Query+Example)
-
-## Installation
-1. Clone the repository:  
-```bash
-git clone https://github.com/your-username/rfm-segmentation-sql.git
