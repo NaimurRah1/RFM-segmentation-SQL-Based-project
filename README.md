@@ -15,9 +15,13 @@ Customers are analyzed and grouped into different segments according to three ke
 ![RFM Segmentation](https://raw.githubusercontent.com/NaimurRah1/RFM-segmentation-SQL-Based-project/main/image/rfm2.jpeg)
 
 ---
-
+## 🗄 Data Management
+Project data were uploaded and managed using **Supabase**, while **PostgreSQL (PgSQL)** was used as the connected backend database.  
+This setup provided a reliable environment for storing customer transaction data and allowed efficient SQL querying, fast processing, and smooth analysis for building the RFM segmentation model.
 
 ![RFM Segmentation](https://raw.githubusercontent.com/NaimurRah1/RFM-segmentation-SQL-Based-project/main/image/rfm3.jpeg)
+
+---
 
 ![RFM Segmentation](https://raw.githubusercontent.com/NaimurRah1/RFM-segmentation-SQL-Based-project/main/image/rfm4.jpeg)
 
