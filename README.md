@@ -1,8 +1,7 @@
 
 # RFM Segmentation - SQL Based Analysis
 
-![RFM Banner](https://via.placeholder.com/800x200.png?text=RFM+Segmentation+Analysis)
-
+![RFM Segmentation](https://raw.githubusercontent.com/NaimurRah1/RFM-segmentation-SQL-Based-project/main/image/rfm1.jpeg)
 ## Project Description
 Analyze customers using **RFM (Recency, Frequency, Monetary)** metrics to guide business decisions:  
 
