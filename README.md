@@ -2,10 +2,12 @@
 # RFM Segmentation - SQL Based Analysis
 
 ![RFM Segmentation](https://raw.githubusercontent.com/NaimurRah1/RFM-segmentation-SQL-Based-project/main/image/rfm1.jpeg)
-
-![RFM Segmentation](https://raw.githubusercontent.com/NaimurRah1/RFM-segmentation-SQL-Based-project/main/image/rfm2.jpeg)
 ## Project Description
 Analyze customers using **RFM (Recency, Frequency, Monetary)** metrics to guide business decisions
+
+---
+![RFM Segmentation](https://raw.githubusercontent.com/NaimurRah1/RFM-segmentation-SQL-Based-project/main/image/rfm2.jpeg)
+## I use supabase to upload the data set, then i connect the data set to my postgreSQL and build the query.
 
 ---
 
