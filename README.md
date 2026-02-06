@@ -2,12 +2,17 @@
 # RFM Segmentation - SQL Based Analysis
 
 ![RFM Segmentation](https://raw.githubusercontent.com/NaimurRah1/RFM-segmentation-SQL-Based-project/main/image/rfm1.jpeg)
-## Project Description
-Analyze customers using **RFM (Recency, Frequency, Monetary)** metrics to guide business decisions
 
 ---
+## 📌 What is RFM Segmentation?
+RFM Segmentation is a business analysis technique used to evaluate and classify customers based on their purchasing behavior.  
+Customers are analyzed and grouped into different segments according to three key factors:
+
+- **Recency (R):** How recently a customer made their last purchase.  
+- **Frequency (F):** How often a customer makes purchases within a given time period.  
+- **Monetary (M):** How much money a customer spends in total.
+- 
 ![RFM Segmentation](https://raw.githubusercontent.com/NaimurRah1/RFM-segmentation-SQL-Based-project/main/image/rfm2.jpeg)
-## I use supabase to upload the data set, then i connect the data set to my postgreSQL and build the query.
 
 ---
 
